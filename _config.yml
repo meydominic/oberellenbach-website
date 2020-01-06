@@ -27,7 +27,6 @@ url: "meydominic.github.io" # the base hostname & protocol for your site, e.g. h
 github_username:  meydominic
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
 
