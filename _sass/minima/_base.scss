@@ -15,8 +15,16 @@ dl, dd, ol, ul, figure {
  */
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  background: linear-gradient(
+    #ffa62f,
+    #ffa62f 40%, 
+    #FFEFD7 40%,
+    #FFEFD7 40.25%,
+    #ffa62f 40.25%, 
+    #ffa62f 40.5%, 
+    #FFEFD7 40.5%,
+    );
   color: $text-color;
-  background-color: $background-color;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
@@ -251,4 +259,58 @@ table {
   td {
     border: 1px solid $grey-color-light;
   }
+}
+
+.background_container {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.background_frontpage_header {
+  background: url(../assets/images/frontpage_header_1.jpg) no-repeat top center;
+  height: 286px;
+  width: 818px;
+}
+
+.background_frontpage_small1 {
+  background: url(../assets/images/frontpage_small_1.jpg) no-repeat top center;
+  background-size: 200px 126px;
+  display: inline-block;
+  float: left;
+  height: 126px;
+  width: 200px;
+  margin-top: 6px;
+}
+
+.background_frontpage_small2 {
+  background: url(../assets/images/frontpage_small_2.jpg) no-repeat top center;
+  background-size: 200px 126px;
+  display: inline-block;
+  float: left;
+  height: 126px;
+  width: 200px;
+  margin-top: 6px;
+  margin-left: 6px;
+}
+
+.background_frontpage_small3 {
+  background: url(../assets/images/frontpage_small_3.jpg) no-repeat top center;
+  background-size: 200px 126px;
+  display: inline-block;
+  float: right;
+  height: 126px;
+  width: 200px;
+  margin-top: 6px;
+  margin-left: 6px;
+}
+
+.background_frontpage_small4 {
+  background: url(../assets/images/frontpage_small_4.jpg) no-repeat top center;
+  background-size: 200px 126px;
+  display: inline-block;
+  float: right;
+  height: 126px;
+  width: 200px;
+  margin-top: 6px;
 }
