@@ -17,12 +17,12 @@ body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   background: linear-gradient(
     #ffa62f,
-    #ffa62f 40%, 
-    #FFEFD7 40%,
-    #FFEFD7 40.25%,
-    #ffa62f 40.25%, 
-    #ffa62f 40.5%, 
-    #FFEFD7 40.5%,
+    #ffa62f 424px, 
+    #FFEFD7 424px,
+    #FFEFD7 427px,
+    #ffa62f 427px, 
+    #ffa62f 430px, 
+    #FFEFD7 430px,
     );
   color: $text-color;
   -webkit-text-size-adjust: 100%;
@@ -168,7 +168,7 @@ code {
 
 pre {
   padding: 8px 12px;
-  overflow-x: auto;
+  //overflow-x: auto;
 
   > code {
     border: 0;
@@ -261,10 +261,30 @@ table {
   }
 }
 
+.website {
+  display: table;
+  margin: 0 auto;
+}
+
+.page-nav {
+  width: 280px;
+  height: 836px;
+  background-color: #FFF9EF;
+  box-shadow: 8px 8px 8px #666;
+  border-radius: 20px;
+  float: left;
+}
+
+.content {
+  float: right;
+  margin-left: 20px;
+  width: 880px;
+}
+
 .background_container {
-  position: fixed;
-  left: 50%;
-  transform: translate(-50%);
+  height: 430px;
+  width: 818px;
+  margin: 0 auto;
 }
 
 .background_frontpage_header {
@@ -275,41 +295,23 @@ table {
 
 .background_frontpage_small1 {
   background: url(../assets/images/frontpage_small_1.jpg) no-repeat top center;
-  background-size: 200px 126px;
-  display: inline-block;
-  float: left;
-  height: 126px;
-  width: 200px;
-  margin-top: 6px;
 }
 
 .background_frontpage_small2 {
   background: url(../assets/images/frontpage_small_2.jpg) no-repeat top center;
-  background-size: 200px 126px;
-  display: inline-block;
-  float: left;
-  height: 126px;
-  width: 200px;
-  margin-top: 6px;
-  margin-left: 6px;
 }
 
 .background_frontpage_small3 {
   background: url(../assets/images/frontpage_small_3.jpg) no-repeat top center;
-  background-size: 200px 126px;
-  display: inline-block;
-  float: right;
-  height: 126px;
-  width: 200px;
-  margin-top: 6px;
-  margin-left: 6px;
 }
 
 .background_frontpage_small4 {
   background: url(../assets/images/frontpage_small_4.jpg) no-repeat top center;
+}
+
+.background_frontpage_small {
   background-size: 200px 126px;
   display: inline-block;
-  float: right;
   height: 126px;
   width: 200px;
   margin-top: 6px;
