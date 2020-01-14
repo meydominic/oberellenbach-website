@@ -266,6 +266,24 @@ table {
   margin: 0 auto;
 }
 
+#oe-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 42px;
+}
+
+.expo-logo {
+  background: 
+    url(../assets/images/image_expo.png) no-repeat bottom center,
+    url(../assets/images/circles.png) no-repeat bottom center;
+  height: 285px;
+  width: 100%;
+  bottom: 50px;
+  position: absolute;
+  
+}
+
 .page-nav {
   width: 280px;
   height: 836px;
@@ -273,6 +291,7 @@ table {
   box-shadow: 8px 8px 8px #666;
   border-radius: 20px;
   float: left;
+  position: relative;
 }
 
 .content {
