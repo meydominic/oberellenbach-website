@@ -85,9 +85,9 @@ figcaption {
 /**
  * Lists
  */
-ul, ol {
-  margin-left: $spacing-unit;
-}
+//ul, ol {
+//  margin-left: $spacing-unit;
+//}
 
 li {
   > ul,
@@ -264,6 +264,12 @@ table {
 .website {
   display: table;
   margin: 0 auto;
+}
+
+.navigation-tree {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 #oe-logo {

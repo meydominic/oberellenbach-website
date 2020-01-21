@@ -1,0 +1,305 @@
+body {
+	background-image: url('../img/background.png');
+	background-repeat: repeat-x;
+	background-position: 0px -100px;
+}
+#left {
+	background-color: #FFF9EF;
+	box-shadow:8px 8px 8px #666;
+	border-radius: 20px;
+}
+
+#logo {
+	text-align: center;
+	margin: 20px 0 15px 0;
+}
+
+/* navigation <ul> first level */
+ul.nav {
+	font-size: 12px;
+	list-style: none;
+	margin-left: 42px;
+	margin-right: 42px;
+	list-style-position: inside;
+}
+
+ul.nav li {
+	color: #000;
+	margin: 2px 0 2px 0;
+	border-bottom: 2px solid #FFA630;
+}
+
+ul.nav li a {
+	padding-left: 20px;
+	color: #000;
+	background: #FFF9EF url('../img/list_style2.png') no-repeat -2px 7px;
+}
+ul.nav li a:hover {
+	color: #000;
+	background: #FFCD9B url('../img/list_style2.png') no-repeat -2px 7px;
+}
+ul.nav li a.current {
+	background: #FFCD9B url('../img/list_style2.png') no-repeat -2px 7px;
+	color: #000;
+}
+ul.nav li a.section {
+	color: #000;
+	background-color: #FFCD9B;
+}
+
+/*ul.nav li:hover {
+	background-color: #FFCD9B;
+	color: green;
+	border-bottom: 2px solid #FFA630;
+}*/
+
+/* navigation <ul> second level */
+ul.nav ul.nav2 {
+	list-style:none;
+	margin-left: 16px;
+	margin-right: 0px;
+	list-style-position: outside;
+}
+ul.nav ul.nav2 li{
+	color: #000;
+	border-bottom: 0px;
+	margin: 5px 0 2px 0;
+}
+ul.nav ul.nav2 li:hover {
+	color: #000;
+	border-bottom: 0px
+}
+
+ul.nav ul.nav2 li a.link {
+	display: block;
+	border: none;
+	background: #FFF9EF url('../img/list_style2.png') no-repeat -2px 7px;
+}
+
+ul.nav ul.nav2 li a:hover {
+	display: block;
+	color: #FFA630;
+	background: #FFF9EF url('../img/list_style2.png') no-repeat -2px 7px;
+	border: none;
+	text-decoration: none;
+}
+ul.nav ul.nav2 li a.current {
+	display: block;
+	color: #FFA630;
+	background: #FFF9EF url('../img/list_style2.png') no-repeat -2px 7px;
+	border: none;
+	text-decoration: none;
+}
+
+#expo_logo {
+	text-align: center;
+	background: url('../img/kreise.png') no-repeat;
+	line-height: 12px;
+	margin-top: 50px;
+	padding: 80px 0 120px 0;
+}
+#expo_logo img {
+	margin-bottom: 8px;
+}
+#expo_logo a {
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#pictures {
+	margin: 0 0 20px 60px;
+	width:840px;
+}
+#pictures img {
+	margin: 2px 2px 5px 0;
+}
+#content {
+	margin: 10px 40px 0 40px;
+}
+
+#content h1 {
+	font-weight: normal;
+	margin-bottom: 18px;
+	letter-spacing:0.05em
+}
+
+#content h2 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 18px;
+	letter-spacing:0.05em
+}
+
+
+#news-border {
+	border-left: solid 2px #FFA630;
+	
+}
+.SingleContentWidget p {
+	font-size: 12px;
+}
+
+#news {
+	background-color: #FFF9EF;
+	margin-left: 5px;
+	width:255px;
+	padding: 2px 5px 0 0;
+}
+#news h3 {
+	font-size: 16px;
+	font-weight: normal;
+	color: #FFF9EF;
+	background-color: #FFA630;
+	margin: 8px 5px 20px 5px;
+	padding: 0 0 0 5px;
+}
+#news p {
+	margin: 5px 5px 8px 5px;
+	padding: 0 0 8px 12px;
+	border-bottom: solid 2px #FFA630;
+}
+
+/* Kontaktformular */
+#Form_Form {
+	font-size: 90%;
+}
+#EditableTextField1 div {
+}
+#EditableTextField1 label {
+	color: #000;
+	font-weight: normal;
+	float: left;
+	margin-right: 5px;
+	padding-top: 6px;
+	width: 60px;
+}
+#EditableTextField1 input {
+	color: #000;
+	border-color: #FFA630;
+	width: 100px;
+	font-size: 90%;
+}
+#EditableTextField2 label {
+	color: #000;
+	font-weight: normal;
+	float: left;
+	margin-right: 5px;
+	padding-top: 6px;
+	width: 60px;
+}
+#EditableTextField2 input {
+	color: #000;
+	border-color: #FFA630;
+	width: 300px;
+	font-size: 90%;
+}
+#EditableTextField3 div {
+}
+#EditableTextField3 label {
+	color: #000;
+	font-weight: normal;
+	float: left;
+	margin-right: 5px;
+	padding-top: 6px;
+	width: 60px;
+}
+#EditableTextField3 input {
+	color: #000;
+	border-color: #FFA630;
+	width: 300px;
+	font-size: 90%;
+}
+#EditableTextField4 label {
+	color: #000;
+	font-weight: normal;
+	float: left;
+	margin-right: 5px;
+	padding-top: 6px;
+	width: 60px;
+}
+#EditableTextField4 input {
+	color: #000;
+	border-color: #FFA630;
+	width: 300px;
+	font-size: 90%;
+}
+#EditableTextField5 label {
+	color: #000;
+	font-weight: normal;
+	float: left;
+	margin-right: 5px;
+	padding-top: 6px;
+	width: 60px;
+}
+#EditableTextField5 input {
+	color: #000;
+	border-color: #FFA630;
+	width: 300px;
+	font-size: 90%;
+}
+#EditableTextField6 label {
+	color: #000;
+	font-weight: normal;
+	float: left;
+	margin-right: 5px;
+	padding-top: 6px;
+	width: 60px;
+}
+#EditableTextField6 input {
+	color: #000;
+	border-color: #FFA630;
+	width: 300px;
+	font-size: 90%;
+}
+#EditableTextField9 label {
+	color: #000;
+	font-weight: normal;
+	float: left;
+	margin-right: 5px;
+	padding-top: 6px;
+	width: 60px;
+}
+#EditableTextField9 textarea {
+	color: #000;
+	border-color: #FFA630;
+	width: 300px;
+	float: left;
+	margin-right: 5px;
+	padding-top: 10px;
+	height: 100px;
+}
+.Actions {
+	text-align: left;
+	padding-left: 55px;
+	margin-bottom: 20px;
+	margin-left:250px;
+}
+#Email label {
+	color: #000;
+	font-weight: normal;
+	float: left;
+	margin-right: 5px;
+	padding-top: 6px;
+	width: 60px;
+}
+#Email input {
+	color: #000;
+	border-color: #FFA630;
+	width: 300px;
+	font-size: 90%;
+}
+#Password label {
+	color: #000;
+	font-weight: normal;
+	float: left;
+	margin-right: 5px;
+	padding-top: 6px;
+	width: 60px;
+}
+#Password input {
+	color: #000;
+	border-color: #FFA630;
+	width: 300px;
+	font-size: 90%;
+}

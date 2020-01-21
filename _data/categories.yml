@@ -1,0 +1,28 @@
+list:
+
+  - title: Start
+    category: start
+
+  - title: Das Dorf
+    category: village
+
+  - title: Geschichte
+    category: history
+
+  - title: Gruppen und Vereine
+    category: groups-and-associations
+
+  - title: Wirtschaft
+    category: economy
+
+  - title: Tourismus
+    category: tourism
+
+  - title: Fundsachen
+    category: lost-items
+
+  - title: Kontakt
+    category: contact
+
+  - title: Impressum
+    category: impressum

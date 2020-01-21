@@ -2,6 +2,28 @@
 
     <img src="{{ "/assets/images/image_oberellenbach.jpg" | relative_url }}" id="oe-logo" alt="">
 
+    <div class="navigation-tree">
+        <ul style="list-style-type: none;">
+            {% for cat in site.data.categories.list %}
+                <li>{{ cat.title }} / {{ cat.category }}
+
+                    {% assign pages = site.page_collections | where: "category", cat.category %}
+
+                    {% if pages %}
+                        <ul>
+                            {% for page in pages %}
+                        
+                                <li>{{ page.title }}</li>
+
+                            {% endfor %}
+                        </ul>
+
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+
     <div class="expo-logo"></div>
 
 </div>
