@@ -266,10 +266,27 @@ table {
   margin: 0 auto;
 }
 
+ul.nav {
+	font-size: 12px;
+	list-style: none;
+	margin-left: 42px;
+	margin-right: 42px;
+  list-style-position: outside;
+  list-style-image: url(../assets/images/list_style.png);
+}
+
+ul.nav ul.inner-nav {
+	list-style:none;
+	//margin-left: 16px;
+	margin-right: 0px;
+  list-style-position: inside;
+  list-style-image: url(../assets/images/list_style.png);
+}
+
 .navigation-tree {
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
+  //text-align: center;
 }
 
 #oe-logo {
@@ -292,7 +309,6 @@ table {
 
 .page-nav {
   width: 280px;
-  height: 836px;
   background-color: #FFF9EF;
   box-shadow: 8px 8px 8px #666;
   border-radius: 20px;

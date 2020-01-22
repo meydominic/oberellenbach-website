@@ -3,17 +3,17 @@
     <img src="{{ "/assets/images/image_oberellenbach.jpg" | relative_url }}" id="oe-logo" alt="">
 
     <div class="navigation-tree">
-        <ul style="list-style-type: none;">
+        <ul class="nav">
             {% for cat in site.data.categories.list %}
-                <li>{{ cat.title }} / {{ cat.category }}
+                <li><a href="/{{ cat.url }}">{{ cat.title }}</a>
 
                     {% assign pages = site.page_collections | where: "category", cat.category %}
 
                     {% if pages %}
-                        <ul>
+                        <ul class="inner-nav">
                             {% for page in pages %}
                         
-                                <li>{{ page.title }}</li>
+                                <li><a href="{{ page.permalink }}">{{ page.title }}</a></li>
 
                             {% endfor %}
                         </ul>
@@ -24,6 +24,6 @@
         </ul>
     </div>
 
-    <div class="expo-logo"></div>
+    <img src="{{ "/assets/images/circles.png" | relative_url }}">
 
 </div>
