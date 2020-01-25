@@ -2,36 +2,36 @@ list:
 
   - title: Start
     category: start
-    url: start.html
+    url: /start
 
   - title: Das Dorf
     category: village
-    url: village.html
+    url: /village
 
   - title: Geschichte
     category: history
-    url: history.html
+    url: /history
 
   - title: Gruppen und Vereine
     category: groups-and-associations
-    url: groups.html
+    url: /groups
 
   - title: Wirtschaft
     category: economy
-    url: economy.html
+    url: /economy
 
   - title: Tourismus
     category: tourism
-    url: tourism.html
+    url: /tourism
 
   - title: Fundsachen
     category: lost-items
-    url: lost-items.html
+    url: /lost-items
 
   - title: Kontakt
     category: contact
-    url: contact.html
+    url: /contact
 
   - title: Impressum
     category: impressum
-    url: impressum
+    url: /impressum
