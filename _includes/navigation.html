@@ -5,19 +5,25 @@
     <div class="navigation-tree">
         <ul class="nav">
             {% for cat in site.data.categories.list %}
+
+                {% assign index = site.page_collections where_exp "item", "item.category-index ==  true and item.category == cat.category" %}
+
+                {{ index }}
+
                 <li style="border-bottom: 2px solid #ffa631">
                     <a class="{% if cat.url == page.url %}active{% endif %}" href="{{ cat.url }}">{{ cat.title }}</a>
 
                     {% if cat.url == page.url or cat.category == page.category%}
 
-                        {% assign pages = site.page_collections where_exp: "item", "item.category == page.category and item.category-index == nil" %}
+                        {% assign pages = site.page_collections | where:"category", page.category %}
 
                         {% if pages %}
                             <ul class="inner-nav">
                                 {% for content in pages %}
                             
-                                    <li><a class="{% if content.url == page.url %}active{% endif %}" href="{{ content.permalink }}">{{ content.title }}</a></li>
-
+                                    {% if content.category-index != true %}
+                                        <li><a class="{% if content.url == page.url %}active{% endif %}" href="{{ content.permalink }}">{{ content.title }}</a></li>
+                                    {% endif %}
                                 {% endfor %}
                             </ul>
 
