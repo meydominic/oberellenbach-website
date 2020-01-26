@@ -1,6 +1,7 @@
 ---
 title: Geschichte
 category: history
+category-index: true
 layout: home
 permalink: /history
 ---

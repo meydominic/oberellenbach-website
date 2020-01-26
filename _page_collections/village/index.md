@@ -1,6 +1,7 @@
 ---
 title: Das Dorf
 category: village
+category-index: true
 permalink: /village
 layout: home
 ---

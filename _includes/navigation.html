@@ -5,30 +5,30 @@
     <div class="navigation-tree">
         <ul class="nav">
             {% for cat in site.data.categories.list %}
-                <li>
+                <li style="border-bottom: 2px solid #ffa631">
                     <a class="{% if cat.url == page.url %}active{% endif %}" href="{{ cat.url }}">{{ cat.title }}</a>
 
-                    {% if cat.url == page.url %}
+                    {% if cat.url == page.url or cat.category == page.category%}
 
-                        {% assign pages = site.page_collections | where: "category", cat.category %}
+                        {% assign pages = site.page_collections where_exp: "item", "item.category == page.category and item.category-index == nil" %}
 
                         {% if pages %}
                             <ul class="inner-nav">
                                 {% for content in pages %}
                             
-                                    <li><a href="{{ content.permalink }}">{{ content.title }}</a></li>
+                                    <li><a class="{% if content.url == page.url %}active{% endif %}" href="{{ content.permalink }}">{{ content.title }}</a></li>
 
                                 {% endfor %}
                             </ul>
 
                         {% endif %}
-                        
+
                     {% endif %}
                 </li>
             {% endfor %}
         </ul>
     </div>
 
-    <img src="{{ "/assets/images/circles.png" | relative_url }}">
+    <img src="{{ "/assets/images/circles.png" | relative_url }}" class="expo-logo">
 
 </div>

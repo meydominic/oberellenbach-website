@@ -1,6 +1,7 @@
 ---
 title: Impressum
 category: impressum
+category-index: true
 layout: home
 permalink: /impressum
 ---

@@ -63,10 +63,10 @@ main {
 /**
  * Images
  */
-img {
-  max-width: 100%;
-  vertical-align: middle;
-}
+//img {
+//  max-width: 100%;
+//  vertical-align: middle;
+//}
 
 
 
@@ -298,6 +298,7 @@ li a.active {
   margin-left: auto;
   margin-right: auto;
   margin-top: 42px;
+  margin-bottom: 20px;
 }
 
 .expo-logo {
@@ -306,8 +307,8 @@ li a.active {
     url(../assets/images/circles.png) no-repeat bottom center;
   height: 285px;
   width: 100%;
-  bottom: 50px;
-  position: absolute;
+  bottom: 100px;
+  //position: absolute;
   
 }
 
