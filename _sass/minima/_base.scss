@@ -8,13 +8,9 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
-
-
-/**
- * Basic styling
- */
-body {
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+html {
+  min-height: 100%;
+  background-color: #FFEFD7;
   background: linear-gradient(
     #ffa62f,
     #ffa62f 424px, 
@@ -23,8 +19,16 @@ body {
     #ffa62f 427px, 
     #ffa62f 430px, 
     #FFEFD7 430px,
+    #FFEFD7 100%,
     ) repeat-x;
     background-size: auto auto;
+}
+
+/**
+ * Basic styling
+ */
+body {
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
