@@ -306,14 +306,19 @@ li a.active {
 }
 
 .expo-logo {
-  background: 
-    url(../assets/images/image_expo.png) no-repeat bottom center,
-    url(../assets/images/circles.png) no-repeat bottom center;
-  height: 285px;
+  display: inline-block;
+  position: relative;
+  bottom: 20px;
+}
+
+.circles-image {
   width: 100%;
-  bottom: 100px;
-  //position: absolute;
-  
+}
+
+.expo-image {
+  position: absolute;
+  left: calc(50% - 33px);
+  top: calc(50% - 41px);
 }
 
 .page-nav {
