@@ -9,7 +9,7 @@
                 {% assign indexes = site.page_collections | where_exp: "item", "item.category-index" | where_exp: "item", "item.category == cat.category" %}
 
                 <li style="border-bottom: 2px solid #ffa631">
-                    <a class="{% if cat.url == page.url %}active{% endif %}" href="{% if indexes.size >= 1 %}{{ indexes[0].url }}{% else %}/404{% endif %}">{{ cat.title }}</a>
+                    <a class="{% if cat.category == page.category and page.category-index %}active{% endif %}" href="{% if indexes.size >= 1 %}{{ indexes[0].url }}{% else %}/404{% endif %}">{{ cat.title }}</a>
 
                     {% if cat.url == page.url or cat.category == page.category%}
 
