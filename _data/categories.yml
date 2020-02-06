@@ -12,21 +12,21 @@ list:
     category: history
     url: /history
 
-  - title: Gruppen und Vereine
-    category: groups-and-associations
-    url: /groups
+  # - title: Gruppen und Vereine
+  #   category: groups-and-associations
+  #   url: /groups
 
-  - title: Wirtschaft
-    category: economy
-    url: /economy
+  # - title: Wirtschaft
+  #   category: economy
+  #   url: /economy
 
-  - title: Tourismus
-    category: tourism
-    url: /tourism
+  # - title: Tourismus
+  #   category: tourism
+  #   url: /tourism
 
-  - title: Fundsachen
-    category: lost-items
-    url: /lost-items
+  # - title: Fundsachen
+  #   category: lost-items
+  #   url: /lost-items
 
   - title: Kontakt
     category: contact

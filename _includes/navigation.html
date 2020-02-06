@@ -19,7 +19,7 @@
                             <ul class="inner-nav">
                                 {% for content in pages %}
                             
-                                    {% if content.category-index != true %}
+                                    {% if content.category-index != true and content.visible != false %}
                                         <li><a class="{% if content.url == page.url %}active{% endif %}" href="{{ content.url }}">{{ content.title }}</a></li>
                                     {% endif %}
                                 {% endfor %}
@@ -36,6 +36,11 @@
     <div class="expo-logo">
         <img class="circles-image" src="{{ "/assets/images/circles.png" | relative_url }}">
         <img class="expo-image" src="{{ "/assets/images/image_expo.png" | relative_url }}">
+        <div class="expo-text">Oberellenbach<br>Expo 2000</div>
+    </div>
+
+    <div id="versioning">
+        Stand: {{ site.version }}
     </div>
 
 </div>
