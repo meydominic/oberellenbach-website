@@ -267,7 +267,7 @@ table {
 }
 
 .website {
-  display: table;
+  display: block;
   margin: 0 auto;
   width: 1180px;
 }
@@ -341,6 +341,7 @@ li a.active {
   float: right;
   margin-left: 20px;
   width: 880px;
+  top: 0;
 }
 
 div#versioning {

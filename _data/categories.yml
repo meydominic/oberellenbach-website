@@ -4,13 +4,13 @@ list:
     category: start
     url: /start
 
-  - title: Das Dorf
-    category: village
-    url: /village
+  # - title: Das Dorf
+  #   category: village
+  #   url: /village
 
-  - title: Geschichte
-    category: history
-    url: /history
+  # - title: Geschichte
+  #   category: history
+  #   url: /history
 
   # - title: Gruppen und Vereine
   #   category: groups-and-associations
