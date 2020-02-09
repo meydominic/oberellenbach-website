@@ -308,7 +308,7 @@ li a.active {
 .expo-logo {
   display: inline-block;
   position: relative;
-  bottom: 20px;
+  bottom: 10px;
   width: 100%;
 }
 
@@ -349,6 +349,12 @@ div#versioning {
   text-align: center;
 }
 
+.background_images_small {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
 .background_container {
   height: 430px;
   width: 818px;
@@ -379,7 +385,7 @@ div#versioning {
 
 .background_frontpage_small {
   background-size: 200px 126px;
-  display: inline-block;
+  //display: inline-block;
   height: 126px;
   width: 200px;
   margin-top: 6px;

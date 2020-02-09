@@ -2,7 +2,7 @@ list:
 
   - title: Start
     category: start
-    url: /start
+    url: /
 
   # - title: Das Dorf
   #   category: village
@@ -28,9 +28,9 @@ list:
   #   category: lost-items
   #   url: /lost-items
 
-  - title: Kontakt
-    category: contact
-    url: /contact
+  # - title: Kontakt
+  #   category: contact
+  #   url: /contact
 
   - title: Impressum
     category: impressum

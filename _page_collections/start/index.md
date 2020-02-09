@@ -3,7 +3,7 @@ title: ""
 category: start
 category-index: true
 layout: home
-permalink: /start
+permalink: /
 ---
 
 ![Oberellenbach](/assets/images/welcome_oberellenbach.jpg)
