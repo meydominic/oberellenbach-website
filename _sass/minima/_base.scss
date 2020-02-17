@@ -9,8 +9,16 @@ dl, dd, ol, ul, figure {
 }
 
 html {
-  min-height: 100%;
-  background-color: #FFEFD7;
+  min-height: 100vh;
+  background: -webkit-linear-gradient(
+    #ffa62f,
+    #ffa62f 424px, 
+    #FFEFD7 424px,
+    #FFEFD7 427px,
+    #ffa62f 427px, 
+    #ffa62f 430px, 
+    #FFEFD7 430px,
+    ) repeat-x;
   background: linear-gradient(
     #ffa62f,
     #ffa62f 424px, 
@@ -19,9 +27,9 @@ html {
     #ffa62f 427px, 
     #ffa62f 430px, 
     #FFEFD7 430px,
-    #FFEFD7 100%,
     ) repeat-x;
     background-size: auto auto;
+    background-color: #FFEFD7;
 }
 
 /**
@@ -37,7 +45,6 @@ body {
           font-feature-settings: "kern" 1;
   font-kerning: normal;
   display: flex;
-  min-height: 100%;
   flex-direction: column;
 }
 
