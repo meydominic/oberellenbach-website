@@ -1,0 +1,46 @@
+<div class="page-nav">
+
+    <img src="{{ "/assets/images/image_oberellenbach.jpg" | relative_url }}" id="oe-logo" alt="">
+
+    <div class="navigation-tree">
+        <ul class="nav">
+            {% for cat in site.data.categories.list %}
+                
+                {% assign indexes = site.page_collections | where_exp: "item", "item.category-index" | where_exp: "item", "item.category == cat.category" %}
+
+                <li style="border-bottom: 2px solid #ffa631">
+                    <a class="{% if cat.category == page.category and page.category-index %}active{% endif %}" href="{% if indexes.size >= 1 %}{{ indexes[0].url }}{% else %}/404{% endif %}">{{ cat.title }}</a>
+
+                    {% if cat.url == page.url or cat.category == page.category%}
+
+                        {% assign pages = site.page_collections | where:"category", page.category %}
+
+                        {% if pages %}
+                            <ul class="inner-nav">
+                                {% for content in pages %}
+                            
+                                    {% if content.category-index != true and content.visible != false %}
+                                        <li><a class="{% if content.url == page.url %}active{% endif %}" href="{{ content.url }}">{{ content.title }}</a></li>
+                                    {% endif %}
+                                {% endfor %}
+                            </ul>
+
+                        {% endif %}
+
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="expo-logo">
+        <img class="circles-image" src="{{ "/assets/images/circles.png" | relative_url }}">
+        <img class="expo-image" src="{{ "/assets/images/image_expo.png" | relative_url }}">
+        <div class="expo-text">Oberellenbach<br>Expo 2000</div>
+    </div>
+
+    <div id="versioning">
+        Stand: {{ site.version }}
+    </div>
+
+</div>

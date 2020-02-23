@@ -1,24 +1,41 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {%- include head.html -%}
+{%- include head.html -%}
 
-  <body>
+<body>
+  <div class="website">
 
-    <div class="background_container">
-      <div class="background_frontpage_header"></div>
-      <div class="background_frontpage_small1"></div>
-      <div class="background_frontpage_small2"></div>
-      <div class="background_frontpage_small3"></div>
-      <div class="background_frontpage_small4"></div>
+    {%- include navigation.html -%}
+
+    <div class="content">
+
+      <div class="background_container">
+        <!-- header images -->
+        <div class="background_frontpage_header"></div>
+        <div class="background_images_small">
+          <div class="background_frontpage_small1 background_frontpage_small"></div>
+          <div class="background_frontpage_small2 background_frontpage_small"></div>
+          <div class="background_frontpage_small3 background_frontpage_small"></div>
+          <div class="background_frontpage_small4 background_frontpage_small"></div>
+        </div>
+
+      </div>
+
+      <div>
+
+        <main class="page-content" aria-label="Content">
+          <div class="wrapper">
+            {{ content }}
+          </div>
+        </main>
+
+      </div>
+
     </div>
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
+  </div>
 
-  </body>
+</body>
 
 </html>

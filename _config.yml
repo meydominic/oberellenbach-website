@@ -25,11 +25,16 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://oberellenbach.de" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  meydominic
+version: 2020.02.17 # Version (Date) of latest revision
 
 # Build settings
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+collections:
+  page_collections:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
