@@ -1,10 +1,10 @@
 ---
 title: Info Neubürger
 category: village
-permalink: /village/info-new-villagers
+permalink: /village/info-neubuerger
 layout: home
 ---
 
 Weitere Informationen für Neubürger
 
-Info für Neubürger <--- Link
+Info für Neubürger <--- (Link, existiert womöglich nicht mehr)
