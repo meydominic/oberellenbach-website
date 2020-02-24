@@ -3,6 +3,7 @@ title: Jugend- und Freizeitheim
 category: village
 permalink: /village/public-room
 layout: home
+published: false
 ---
 
 Raumangebot
