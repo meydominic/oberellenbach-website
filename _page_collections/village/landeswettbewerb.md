@@ -33,7 +33,7 @@ Im Landesentscheid 2012 der erfolgreichsten Dörfer Hessens wurden folgende Sieg
 
 Gruppe A
 1. Reinheim-Ueberau, Landkreis Darmstadt-Dieburg
-2. Alheim-Oberellenbach, Landkreis Hersfeld-Rotenburg
+2. __Alheim-Oberellenbach, Landkreis Hersfeld-Rotenburg__
 3. Hüttenberg-Vollnkirchen, Lahn-Dill-Kreis
 
 Gruppe B
