@@ -1,9 +1,8 @@
 ---
 title: Ärztlicher Bereitschaftsdienst
 category: village
-permalink: /village/medical-service
+permalink: /village/aerztlicher-bereitsschaftsdienst
 layout: home
-published: false
 ---
 
 Ärztlicher Bereitschaftsdienst: 116 117
