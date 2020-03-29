@@ -1,10 +1,11 @@
 ---
 title: Jugend- und Freizeitheim
-category: village
-permalink: /village/jugend-und-freizeitheim
+category: das-dorf
+permalink: /das-dorf/jugend-und-freizeitheim
 layout: home
-published: false
 ---
+
+![Jugendheim](/images/jugendheim_frontansicht.jpg)
 
 Raumangebot
 ---
@@ -28,51 +29,32 @@ Tel.-Nr. 0152/06350276
 [Nutzungsantrag Jugend- und Freizeitheim](https://daten2.verwaltungsportal.de/dateien/seitengenerator/nutzerantrag_oberellenbach.pdf)
 
 
-Jugend- und Freizeitheim Innenansicht
+Jugend- und Freizeitheim Innenansicht  
+![Jugendheim](/images/jugendheim_innenansicht_1.jpg)
 
- 
+Jugend- und Freizeitheim Innenansicht  
+![Jugendheim](/images/jugendheim_innenansicht_2.jpg)
 
+Jugend- und Freizeitheim Innenansicht  
+![Jugendheim](/images/jugendheim_innenansicht_3.jpg)
 
-Jugend- und Freizeitheim Innenansicht
+Jugend- und Freizeitheim Innenansicht  
+![Jugendheim](/images/jugendheim_innenansicht_4.jpg)
 
- 
+Tummelplatz  
+![Tummelplatz](/images/tummelplatz_1.jpg)
 
+Tummelplatz  
+![Tummelplatz](/images/tummelplatz_2.jpg)
 
-Jugend- und Freizeitheim Innenansicht
+Tummelplatz  
+![Tummelplatz](/images/tummelplatz_3.jpg)
 
- 
+Tummelplatz  
+![Tummelplatz](/images/tummelplatz_4.jpg)
 
+Tummelplatz  
+![Tummelplatz](/images/tummelplatz_5.jpg)
 
-Jugend- und Freizeitheim Innenansicht
-
- 
-
-
-Tummelplatz
-
- 
-
-
-Tummelplatz
-
- 
-
-
-Tummelplatz
-
- 
-
- 
-
-
-Tummelplatz
-
- 
-
-
-Tummelplatz
-
- 
-
-
-Tummelplatz
+Tummelplatz  
+![Tummelplatz](/images/tummelplatz_6.jpg)

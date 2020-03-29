@@ -1,7 +1,7 @@
 ---
 title: Hessischer Demografiepreis 2012
-category: village
-permalink: /village/hessischer-demografiepreis
+category: das-dorf
+permalink: /das-dorf/hessischer-demografiepreis
 layout: home
 ---
 

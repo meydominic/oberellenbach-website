@@ -1,8 +1,8 @@
 ---
 title: Das Dorf
-category: village
+category: das-dorf
 category-index: true
-permalink: /village
+permalink: /das-dorf
 layout: home
 ---
 

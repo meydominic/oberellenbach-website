@@ -1,7 +1,7 @@
 ---
 title: Leitgedanke
-category: village
-permalink: /village/leitgedanke
+category: das-dorf
+permalink: /das-dorf/leitgedanke
 layout: home
 ---
 

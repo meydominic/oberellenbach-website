@@ -1,7 +1,7 @@
 ---
 title: Landeswettbewerb "Unser Dorf hat Zukunft"
-category: village
-permalink: /village/landeswettbewerb-unser-dorf-hat-zukunft
+category: das-dorf
+permalink: /das-dorf/landeswettbewerb-unser-dorf-hat-zukunft
 layout: home
 ---
 

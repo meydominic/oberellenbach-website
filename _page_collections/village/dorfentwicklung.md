@@ -1,7 +1,7 @@
 ---
-title: Dorfentwicklung Alheim (Ortsteil Oberellenbach)
-category: village
-permalink: /village/dorfentwicklung
+title: Dorfentwicklung Alheim
+category: das-dorf
+permalink: /das-dorf/dorfentwicklung
 layout: home
 ---
 

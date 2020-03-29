@@ -1,7 +1,7 @@
 ---
 title: Sauberhaftes Hessen 2012
-category: village
-permalink: /village/sauberhaftes-hessen-2012
+category: das-dorf
+permalink: /das-dorf/sauberhaftes-hessen-2012
 layout: home
 ---
 

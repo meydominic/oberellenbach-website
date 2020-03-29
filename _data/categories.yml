@@ -5,8 +5,8 @@ list:
     url: /
 
   - title: Das Dorf
-    category: village
-    url: /village
+    category: das-dorf
+    url: /das-dorf
 
   # - title: Geschichte
   #   category: history

@@ -1,7 +1,7 @@
 ---
 title: Info Neubürger
-category: village
-permalink: /village/info-neubuerger
+category: das-dorf
+permalink: /das-dorf/info-neubuerger
 layout: home
 published: false
 ---

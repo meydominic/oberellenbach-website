@@ -1,7 +1,7 @@
 ---
 title: Dorferneuerung
-category: village
-permalink: /village/dorferneuerung
+category: das-dorf
+permalink: /das-dorf/dorferneuerung
 layout: home
 ---
 

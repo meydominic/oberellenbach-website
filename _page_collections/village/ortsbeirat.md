@@ -1,7 +1,7 @@
 ---
 title: Ortsbeirat
-category: village
-permalink: /village/ortsbeirat
+category: das-dorf
+permalink: /das-dorf/ortsbeirat
 layout: home
 ---
 

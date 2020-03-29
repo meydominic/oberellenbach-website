@@ -1,7 +1,7 @@
 ---
 title: Ärztlicher Bereitschaftsdienst
-category: village
-permalink: /village/aerztlicher-bereitsschaftsdienst
+category: das-dorf
+permalink: /das-dorf/aerztlicher-bereitsschaftsdienst
 layout: home
 ---
 
