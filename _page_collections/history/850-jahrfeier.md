@@ -1,7 +1,7 @@
 ---
 title: 850-Jahrfeier
-category: history
-permalink: /history/850-years
+category: geschichte
+permalink: /geschichte/850-jahrfeier
 layout: home
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Bergbau
-category: history
-permalink: /history/mining
+category: geschichte
+permalink: /geschichte/bergbau
 layout: home
 ---
 

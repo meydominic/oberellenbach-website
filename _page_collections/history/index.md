@@ -1,9 +1,9 @@
 ---
 title: Geschichte
-category: history
+category: geschichte
 category-index: true
 layout: home
-permalink: /history
+permalink: /geschichte
 ---
 
 Die Urkunde, in der unsere beiden Orte zum ersten Mal erwähnt werden,
@@ -29,9 +29,9 @@ auf. 1225 wird nochmals ein Henricus de Elmbach erwähnt.
 Ellenbach als Siedlung wird 1196 in den Urkunden des Klosters Kappel erstmalig
 genannt.
 
-Quellen:
-Hafner, Ph.: Die Reichsabtei Hersfeld bis zur
-Mitte des 13. Jh. 2. Aufl., Bad Hersfeld 1936
-Demant, K. E.: Geschichte des Landes Hessen.
-Kassel und Basel 1972
+Quellen:  
+Hafner, Ph.: Die Reichsabtei Hersfeld bis zur  
+Mitte des 13. Jh. 2. Aufl., Bad Hersfeld 1936  
+Demant, K. E.: Geschichte des Landes Hessen.  
+Kassel und Basel 1972  
 Chronik 850-Jahre Ellenbach
