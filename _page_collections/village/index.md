@@ -1,8 +1,8 @@
 ---
 title: Das Dorf
-category: village
+category: das-dorf
 category-index: true
-permalink: /village
+permalink: /das-dorf
 layout: home
 ---
 
@@ -20,5 +20,5 @@ Im Jahr 2000 erhielt Oberellenbach für sein Konzept der Zukunftsgestaltung durc
 
 Linktipp: Korea-Delegation besucht Provinzdorf
 Was können Koreaner von einem nordhessischen Dorf lernen? Offensichtlich eine Menge.
-(Beitrag von hessenschau)
-https://www.youtube.com/watch?v=DTb3CGKgc94
+(Beitrag von hessenschau)  
+<https://www.youtube.com/watch?v=DTb3CGKgc94>

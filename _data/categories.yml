@@ -4,9 +4,9 @@ list:
     category: start
     url: /
 
-  # - title: Das Dorf
-  #   category: village
-  #   url: /village
+  - title: Das Dorf
+    category: das-dorf
+    url: /das-dorf
 
   # - title: Geschichte
   #   category: history
