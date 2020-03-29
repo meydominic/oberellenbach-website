@@ -8,9 +8,9 @@ list:
     category: das-dorf
     url: /das-dorf
 
-  # - title: Geschichte
-  #   category: history
-  #   url: /history
+  - title: Geschichte
+    category: geschichte
+    url: /geschichte
 
   # - title: Gruppen und Vereine
   #   category: groups-and-associations

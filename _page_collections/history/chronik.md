@@ -1,7 +1,7 @@
 ---
 title: Chronik
-category: history
-permalink: /history/chronik
+category: geschichte
+permalink: /geschichte/chronik
 layout: home
 ---
 
