@@ -16,9 +16,9 @@ list:
   #   category: groups-and-associations
   #   url: /groups
 
-  # - title: Wirtschaft
-  #   category: economy
-  #   url: /economy
+  - title: Wirtschaft
+    category: wirtschaft
+    url: /wirtschaft
 
   # - title: Tourismus
   #   category: tourism

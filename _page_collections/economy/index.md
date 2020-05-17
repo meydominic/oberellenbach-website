@@ -1,7 +1,7 @@
 ---
 title: Wirtschaft
-category: economy
+category: wirtschaft
 category-index: true
 layout: home
-permalink: /economy
+permalink: /wirtschaft
 ---
