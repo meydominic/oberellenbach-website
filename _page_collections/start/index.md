@@ -6,16 +6,6 @@ layout: home
 permalink: /
 ---
 
----
-## **Nächster Termin:**
-**Treffen zur Bewerber-Listenaufstellung für den Ortsbeirat, Kommunalwahl 14. März 2021**
-
-Das Treffen für die Listenaufstellung findet am **07. Dezember 2020** um **20:00 Uhr** im Jugen- und Freizeitheim in Oberellenbach statt.
-
----
-&nbsp;  
-&nbsp;  
-&nbsp;  
 
 ![Oberellenbach](/assets/images/welcome_oberellenbach.jpg)
 
