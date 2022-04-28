@@ -4,6 +4,10 @@ list:
     category: start
     url: /
 
+  - title: Termine
+    category: appointments
+    url: /termine
+
   - title: Das Dorf
     category: das-dorf
     url: /das-dorf
