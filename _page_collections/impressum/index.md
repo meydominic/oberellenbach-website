@@ -17,7 +17,7 @@ E-Mail: ![E-Mail](/assets/images/image_email.png)
 <http://www.oberellenbach.de/>
 
 Die Gemeinde Alheim ist Körperschaft des Öffentlichen Rechts.
-Sie wird vertreten durch den Bürgermeister Georg Lüdtke.
+Sie wird vertreten durch den Bürgermeister Jochen Schmidt.
 Inhaltlich Verantwortlicher im § 55 Abs. 2 RStV: Dominic-Pascal Mey (Anschrift wie oben)
 
 Webdesign: Beate Rehwald-Möller (<http://www.rehwald-moeller.de/>)
