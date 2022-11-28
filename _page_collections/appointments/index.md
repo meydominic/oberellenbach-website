@@ -8,9 +8,7 @@ permalink: /termine
 
 2022  
 
-| Datum | Termin |
-|--|--|
-| - | - |
+\-
 
 2023  
 
