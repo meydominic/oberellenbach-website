@@ -1,16 +1,23 @@
 ---
-title: Termine 2022
+title: Termine
 category: appointments
 category-index: true
 layout: home
 permalink: /termine
 ---
 
+2022
 | Datum | Termin |
 |--|--|
-| 03. Juni | JHV Ellenbacher Musikanten - Jugend- und Freizeitheim |
-| 11. Juni | Weinfest - Unter der Linde|
-| 09. Juli | Volleyball Turnier |
-| 06. August | 50 Jahre Gemeinde Alheim |
-| 10. September | JHV FFW - Jugend- und Freizeitheim|
-| 27. September | JHV Heimatverein Ellenbach - DGH Niederellenbach |
+| - | - |
+
+2023
+| Datum | Termin |
+|--|--|
+| 27.01. - 29.01. | Aufführung Oberellenbacher Bühne |
+| 03.02. - 05.02. | Aufführung Oberellenbacher Bühne |
+| 21.04. - 23.04. | Wanderwochenende Heimatverein |
+| 08.06. | Volkswandertag |
+| 17.06. | Weinfest |
+| 03.09. | Hoffest Kirchhof |
+| 06.10. - 08.10. | Städtefahrt Oberellenbacher Bühne |
