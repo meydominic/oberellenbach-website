@@ -6,12 +6,14 @@ layout: home
 permalink: /termine
 ---
 
-2022
+2022  
+
 | Datum | Termin |
 |--|--|
 | - | - |
 
-2023
+2023  
+
 | Datum | Termin |
 |--|--|
 | 27.01. - 29.01. | Aufführung Oberellenbacher Bühne |
