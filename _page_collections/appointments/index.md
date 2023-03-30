@@ -11,11 +11,12 @@ permalink: /termine
 
 | Datum | Termin |
 |--|--|
-| 09.03. | JHV Heimatverein Ellenbach - DGH Niederellenbach |
-| 22.03. | JHV Oberellenbacher Bühne - DGH Oberellenbach |
-| 25.03. | Jagdgenossenschaftsversammlung |
-| 30.03. | JHV Landfrauen |
+| 09.03. | ~~JHV Heimatverein Ellenbach - DGH Niederellenbach~~ |
+| 22.03. | ~~JHV Oberellenbacher Bühne - DGH Oberellenbach~~ |
+| 25.03. | ~~Jagdgenossenschaftsversammlung~~ |
+| 30.03. | ~~JHV Landfrauen~~ |
 | 21.04. - 23.04. | Wanderwochenende Heimatverein |
+| 28.04. | Jahreshauptversammlung Ellenbacher Musikanten |
 | 08.06. | Volkswandertag |
 | 17.06. | Weinfest unter der Linde |
 | 03.09. | Hoffest Kirchhof |
