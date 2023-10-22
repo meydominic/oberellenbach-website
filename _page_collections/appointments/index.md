@@ -27,8 +27,10 @@ permalink: /termine
 
 | Datum | Termin |
 |--|--|
+| 06.01 14:00 | Weihnachtsbaumaktion |
 | 26. - 28.01. | Theater - Oberellenbacher Bühne |
 | 02. - 04.02. | Theater - Oberellenbacher Bühne |
 | 10.02. | Faschingsfeier - SV Osterbach |
+| 16.02 19:00 | Jahreshauptversammlung FFW |
 | 23.02. | Jahreshauptversammlung - SV Osterbach |
 | 30.05. | Volkswandertag |
