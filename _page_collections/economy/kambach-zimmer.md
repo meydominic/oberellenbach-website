@@ -3,6 +3,7 @@ title: Zimmervermietung Kambach
 category: wirtschaft
 layout: home
 permalink: /wirtschaft/kambach-zimmer
+published: false
 ---
 Genießen Sie die herrliche Lage und ländliche Idylle unseres Hauses inmitten der Naturregion Waldhessen.
 Nach einem erlebnisreichen Tag finden Sie in einem unserer modern ausgestatteten

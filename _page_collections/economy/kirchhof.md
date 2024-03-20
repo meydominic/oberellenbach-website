@@ -3,6 +3,7 @@ title: Kirchhof oHG
 category: wirtschaft
 layout: home
 permalink: /wirtschaft/kirchhof
+published: false
 ---
 
 Kirchhof Agrar UG (haftungsbeschränkt) & Co. KG  

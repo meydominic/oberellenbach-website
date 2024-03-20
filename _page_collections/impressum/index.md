@@ -7,7 +7,7 @@ permalink: /impressum
 ---
 
 Dominic-Pascal Mey  
-Zum Ried 20  
+Licheröder Straße 10  
 36211 Alheim-Oberellenbach
 
 Telefon: +49 (0) 1522 1476582
@@ -17,7 +17,7 @@ E-Mail: ![E-Mail](/assets/images/image_email.png)
 <http://www.oberellenbach.de/>
 
 Die Gemeinde Alheim ist Körperschaft des Öffentlichen Rechts.
-Sie wird vertreten durch den Bürgermeister Jochen Schmidt.
+Sie wird vertreten durch den Bürgermeister Dr. Andreas Brethauer.
 Inhaltlich Verantwortlicher im § 55 Abs. 2 RStV: Dominic-Pascal Mey (Anschrift wie oben)
 
 Webdesign: Beate Rehwald-Möller (<http://www.rehwald-moeller.de/>)

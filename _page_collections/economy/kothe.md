@@ -3,6 +3,7 @@ title: Reiner Kothe, KFZ-Werkstatt und Tankstelle
 category: wirtschaft
 layout: home
 permalink: /wirtschaft/kothe
+published: false
 ---
 **Service rund ums Auto**
 

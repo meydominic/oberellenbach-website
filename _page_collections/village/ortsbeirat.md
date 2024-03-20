@@ -16,13 +16,7 @@ layout: home
 
 | Schriftführer/in |
 |---|
-| Jan Niklas Fischer |
 | Magdalena Heilmann |
-
-| Friedhofskommission |
-|---|
-| Jonas Ludwig |
-| Christian Clobes |
 
 | IKEK-Steuerungsgruppe |
 |---|

@@ -3,6 +3,7 @@ title: Dorfladen GbR
 category: wirtschaft
 layout: home
 permalink: /wirtschaft/dorfladen
+published: false
 ---
 
 ![Dorfladen](/images/dorfladen_aussenansicht.jpg)
