@@ -7,11 +7,6 @@ permalink: /termine
 ---
 
 
-2024
-
-| Datum | Termin |
-|--|--|
-
 2025
 
 | Datum | Termin |
