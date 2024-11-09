@@ -7,22 +7,6 @@ permalink: /termine
 ---
 
 
-2023  
-
-| Datum | Termin |
-|--|--|
-| 09.03. | ~~JHV Heimatverein Ellenbach - DGH Niederellenbach~~ |
-| 22.03. | ~~JHV Oberellenbacher Bühne - DGH Oberellenbach~~ |
-| 25.03. | ~~Jagdgenossenschaftsversammlung~~ |
-| 30.03. | ~~JHV Landfrauen~~ |
-| 21.04. - 23.04. | ~~Wanderwochenende Heimatverein~~ |
-| 28.04. | ~~Jahreshauptversammlung Ellenbacher Musikanten~~ |
-| 08.06. | ~~Volkswandertag~~ |
-| 17.06. | ~~Weinfest unter der Linde~~ |
-| 08.07. | ~~Volleyballturnier~~ |
-| 03.09. | ~~Hoffest Kirchhof~~ |
-| 06.10. - 08.10. | Städtefahrt Oberellenbacher Bühne |
-
 2024
 
 | Datum | Termin |
@@ -34,3 +18,20 @@ permalink: /termine
 | 16.02 19:00 | Jahreshauptversammlung FFW |
 | 23.02. | Jahreshauptversammlung - SV Osterbach |
 | 30.05. | Volkswandertag |
+
+2025
+
+| Datum | Termin |
+|--|--|
+| 31.01 | Oberellenbacher Bühne - "Wohin mit Tante Bertha?" |
+| 01.02 | Oberellenbacher Bühne - "Wohin mit Tante Bertha?" |
+| 02.02 | Oberellenbacher Bühne - "Wohin mit Tante Bertha?" |
+| 07.02 | Oberellenbacher Bühne - "Wohin mit Tante Bertha?" |
+| 08.02 | Oberellenbacher Bühne - "Wohin mit Tante Bertha?" |
+| 09.02 | Oberellenbacher Bühne - "Wohin mit Tante Bertha?" |
+| 14.02 | Jahreshauptversammlung SV Osterbach |
+| 01.03 | Faschingsparty |
+| 25.04 - 27.04 | Wanderwochenende Heimatverein |
+| 15.06 | 30. Jubiläum Heimatverein |
+| 19.06 | Volkswandertag |
+| 23.08 | Beachvolleyball-Turnier |

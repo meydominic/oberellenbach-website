@@ -16,7 +16,7 @@ layout: home
 
 | Schriftführer/in |
 |---|
-| Magdalena Heilmann |
+| Martin Spieker |
 
 | IKEK-Steuerungsgruppe |
 |---|
