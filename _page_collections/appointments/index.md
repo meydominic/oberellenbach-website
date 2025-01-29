@@ -21,5 +21,6 @@ permalink: /termine
 | 01.03 | Faschingsparty |
 | 25.04 - 27.04 | Wanderwochenende Heimatverein |
 | 15.06 | 30. Jubiläum Heimatverein |
+| 28.06 | Weinfest |
 | 19.06 | Volkswandertag |
 | 23.08 | Beachvolleyball-Turnier |

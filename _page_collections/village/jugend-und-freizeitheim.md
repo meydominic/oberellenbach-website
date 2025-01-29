@@ -21,10 +21,8 @@ Das Jugend- und Freizeitheim können Sie direkt beim Hausverwalter mieten.  Die 
 
 Hausverwalter:
 ---
-Walter Reidelbach  
-Licheröder Straße 16  
-36211 Alheim-Oberellenbach  
-Tel.-Nr. 0152/06350276  
+Dirk Brand  
+Tel.-Nr. 0170/7590573  
 
 [Nutzungsantrag Jugend- und Freizeitheim](https://daten2.verwaltungsportal.de/dateien/seitengenerator/nutzerantrag_oberellenbach.pdf)
 
