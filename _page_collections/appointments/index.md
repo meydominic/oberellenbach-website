@@ -11,16 +11,6 @@ permalink: /termine
 
 | Datum | Termin |
 |--|--|
-| 31.01 | Oberellenbacher Bühne - "Wohin mit Tante Bertha?" |
-| 01.02 | Oberellenbacher Bühne - "Wohin mit Tante Bertha?" |
-| 02.02 | Oberellenbacher Bühne - "Wohin mit Tante Bertha?" |
-| 07.02 | Oberellenbacher Bühne - "Wohin mit Tante Bertha?" |
-| 08.02 | Oberellenbacher Bühne - "Wohin mit Tante Bertha?" |
-| 09.02 | Oberellenbacher Bühne - "Wohin mit Tante Bertha?" |
-| 14.02 | Jahreshauptversammlung SV Osterbach |
-| 01.03 | Faschingsparty |
-| 25.04 - 27.04 | Wanderwochenende Heimatverein |
-| 15.06 | 30. Jubiläum Heimatverein |
-| 28.06 | Weinfest |
-| 19.06 | Volkswandertag |
-| 23.08 | Beachvolleyball-Turnier |
+| 31.08 | Dorf Flohmarkt (11:00-17:00) |
+
+<img src="/assets/images/dorf_flohmarkt.jpg" alt="Flohmarkt" style="width:50%; height:auto;">
