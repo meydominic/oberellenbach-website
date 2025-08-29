@@ -13,4 +13,4 @@ permalink: /termine
 |--|--|
 | 31.08 | Dorf Flohmarkt (11:00-17:00) |
 
-<img src="/assets/images/dorf_flohmarkt.jpg" alt="Flohmarkt" style="width:50%; height:auto;">
+<img src="/assets/images/dorf_flohmarkt.jpeg" alt="Flohmarkt" style="width:50%; height:auto;">
