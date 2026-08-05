@@ -1,0 +1,42 @@
+<div class="page-nav">
+
+    <img src="/assets/images/image_oberellenbach.jpg" id="oe-logo" alt="Oberellenbach">
+
+    <div class="navigation-tree">
+        <ul class="nav">
+            {{ $currentCategory := .Params.category }}
+            {{ range hugo.Data.categories.list }}
+                {{ $cat := . }}
+                {{ $indexes := where (where site.Pages ".Params.category" $cat.category) ".Params.category-index" true }}
+                {{ $indexURL := "/404" }}
+                {{ with $indexes }}{{ $indexURL = (index . 0).RelPermalink }}{{ end }}
+
+                <li style="border-bottom: 2px solid #ffa631">
+                    <a class="{{ if and (eq $currentCategory $cat.category) (index $.Params "category-index") }}active{{ end }}" href="{{ $indexURL }}">{{ $cat.title }}</a>
+
+                    {{ if eq $currentCategory $cat.category }}
+                        {{ $subpages := sort (where site.RegularPages ".Params.category" $cat.category) "Weight" }}
+                        {{ if $subpages }}
+                            <ul class="inner-nav">
+                                {{ range $subpages }}
+                                    <li><a class="{{ if eq .RelPermalink $.RelPermalink }}active{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                                {{ end }}
+                            </ul>
+                        {{ end }}
+                    {{ end }}
+                </li>
+            {{ end }}
+        </ul>
+    </div>
+
+    <div class="expo-logo">
+        <img class="circles-image" src="/assets/images/circles.png" alt="">
+        <img class="expo-image" src="/assets/images/image_expo.png" alt="">
+        <div class="expo-text">Oberellenbach<br>Expo 2000</div>
+    </div>
+
+    <div id="versioning">
+        Stand: {{ site.Params.version }}
+    </div>
+
+</div>

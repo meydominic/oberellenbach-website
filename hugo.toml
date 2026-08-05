@@ -1,0 +1,33 @@
+# Oberellenbach – Hugo-Konfiguration
+# Migriert von Jekyll (gh-pages branch), Stand 2025-10-03
+
+baseURL = 'https://oberellenbach.de/'
+locale = 'de-de'
+title = 'Oberellenbach'
+
+# Kein Hugo-Generator-Meta-Tag (gab es auf der alten Seite nicht)
+disableHugoGeneratorInject = true
+
+# Keine Taxonomien (die alte Jekyll-Seite hatte keine Tag-/Kategorie-Seiten)
+disableKinds = ['taxonomy', 'term', 'sitemap']
+
+# Erlaubt Roh-HTML im Markdown (z. B. Google-Calendar-Iframe auf /termine)
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  # Version (Stand), wird in der Sidebar angezeigt
+  version = '2025.10.03'
+  description = 'Oberellenbach – ein Ortsteil der Gemeinde Alheim (Landkreis Hersfeld-Rotenburg).'
+  email = 'dominic.eubel@gmail.com'
+
+# RSS-Feed nur für die Startseite (wie bei Jekyll /feed.xml)
+[outputs]
+  home = ['HTML', 'RSS']
+  section = ['HTML']
+  page = ['HTML']
+
+[outputFormats]
+  [outputFormats.RSS]
+    mediaType = 'application/rss+xml'
+    baseName = 'feed'

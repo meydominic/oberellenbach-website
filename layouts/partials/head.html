@@ -1,0 +1,18 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ if .Title }}{{ .Title }} – {{ site.Title }}{{ else }}{{ site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ site.Params.description }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <meta property="og:title" content="{{ if .Title }}{{ .Title }}{{ else }}{{ site.Title }}{{ end }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:site_name" content="{{ site.Title }}">
+  <meta property="og:description" content="{{ site.Params.description }}">
+  <meta name="twitter:card" content="summary">
+  {{ $css := resources.Get "scss/main.scss" | toCSS }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+  <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/assets/favicon.ico">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.Title }}" href="/feed.xml">
+</head>

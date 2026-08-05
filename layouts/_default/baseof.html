@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+
+{{ partial "head.html" . }}
+
+<body>
+  <div class="website">
+
+    {{ partial "navigation.html" . }}
+
+    <div class="content">
+
+      <div class="background_container">
+        <!-- header images -->
+        <div class="background_frontpage_header"></div>
+        <div class="background_images_small">
+          <div class="background_frontpage_small1 background_frontpage_small"></div>
+          <div class="background_frontpage_small2 background_frontpage_small"></div>
+          <div class="background_frontpage_small3 background_frontpage_small"></div>
+          <div class="background_frontpage_small4 background_frontpage_small"></div>
+        </div>
+      </div>
+
+      <div>
+        <main class="page-content" aria-label="Content">
+          <div class="wrapper">
+            {{ block "main" . }}{{ end }}
+          </div>
+        </main>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+{{- /* Leeres RSS-Feed wie auf der alten Jekyll-Seite (dort gab es keine Posts) */ -}}
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.Title }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>Recent content on {{ site.Title }}</description>
+    <language>{{ site.Language.Locale }}</language>
+    <atom:link href="{{ .Permalink }}feed.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
