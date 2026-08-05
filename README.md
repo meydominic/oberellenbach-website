@@ -35,12 +35,24 @@ static/           Bilder, Uploads, CNAME (wird unverändert nach public/ kopiert
 - `category-index: true` – kennzeichnet die Kategorieseite selbst (z. B. `das-dorf/_index.md`)
 - `draft: true` – entspricht `published: false` der alten Seite (Seite wird nicht gebaut)
 - `weight: <n>` – Reihenfolge der Unterpunkte (entspricht der alten alphabetischen Sortierung)
-- `url: <pfad>` – nur auf Seiten, deren URL vom Dateinamen abweicht (alte Permalinks wurden beibehalten, z. B. `/das-dorf/hessischer-demografiepreis`, `/wirtschaft/hausschlachter`)
+- `url: <pfad>` – nur auf Seiten, deren URL vom Dateinamen abweicht (bewusst
+  kürzere Slugs aus der alten Seite, z. B. `/das-dorf/hessischer-demografiepreis`,
+  `/wirtschaft/hausschlachter`)
 
 ## Hinweise zur Migration
 
-- Alle alten URLs (Jekyll-Permalinks) bleiben erhalten, inklusive der historischen
-  Tippfehler (`/das-dorf/aerztlicher-bereitsschaftsdienst`).
+- Alle alten URLs (Jekyll-Permalinks) bleiben erhalten. Die Tippfehler in URLs wurden
+  korrigiert; für die alte, fehlerhafte URL existiert jeweils eine Redirect-Seite
+  (Hugo `aliases`):
+  - `/das-dorf/aerztlicher-bereitsschaftsdienst` (doppeltes s) →
+    `/das-dorf/aerztlicher-bereitschaftsdienst` (mit Redirect)
+  - `imoressionen.md` → `impressionen.md`, URL `…/impressions` → `…/impressionen`
+    (Draft, war nie online)
+  - URL `…/german-commitment-award` → `…/deutscher-engagementpreis-2013`
+    (Draft, war nie online)
+  - Bewusst beibehaltene Kurz-Slugs (keine Tippfehler):
+    `/das-dorf/hessischer-demografiepreis`, `/wirtschaft/hausschlachter`,
+    `/das-dorf/landeswettbewerb-unser-dorf-hat-zukunft`
 - Nicht mehr veröffentlichte Seiten (`published: false` → `draft: true`) sind weiterhin
   im Content vorhanden, werden aber nicht gebaut: Dorfladen, Töpferei Geißler, Kirchhof oHG,
   Gastwirtschaft Kambach, Zimmervermietung Kambach, Reiner Kothe, Impressionen, Info Neubürger,

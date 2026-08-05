@@ -1,7 +1,9 @@
 ---
 title: Ärztlicher Bereitschaftsdienst
 category: das-dorf
-url: /das-dorf/aerztlicher-bereitsschaftsdienst
+# Alte URL mit Tippfehler (bereitsschaftsdienst) → Redirect beibehalten
+aliases:
+  - /das-dorf/aerztlicher-bereitsschaftsdienst/
 weight: 1
 ---
 

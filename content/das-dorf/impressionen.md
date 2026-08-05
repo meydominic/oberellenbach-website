@@ -2,7 +2,6 @@
 title: Impressionen
 category: das-dorf
 draft: true
-url: /das-dorf/impressions
 weight: 7
 ---
 
