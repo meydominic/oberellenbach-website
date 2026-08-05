@@ -63,6 +63,20 @@ static/           Bilder, Uploads, CNAME (wird unverändert nach public/ kopiert
   Hugo Extended eingebaute libsass. Falls Hugo libsass künftig entfernt, `dart-sass`
   (Embedded) installieren, dann funktioniert `toCSS` weiterhin.
 
+## Fonts
+
+- Selbst gehostete **Variable Fonts** (woff2, in `assets/fonts/`):
+  - **Lora** (SIL OFL) für Überschriften (`h1–h6`)
+  - **Source Sans 3** (SIL OFL) für Fließtext (`$base-font-family`)
+- Beide als latin-Subset (deckt Deutsch inkl. Umlauten/ß ab), normal + italic,
+  Gewichtsachse 400–700, `font-display: swap`
+- Kein externer Font-CDN → DSGVO-konform; OFL-Lizenzen liegen in `assets/fonts/`
+- URLs werden beim Build via `resources.ExecuteAsTemplate` injiziert und per
+  `resources.Fingerprint` gehasht; die beiden normalen Fonts werden im `<head>`
+  mit `preload` geladen
+- Zum Austauschen: woff2-Dateien in `assets/fonts/` ersetzen und die
+  `@font-face`-Blöcke in `assets/scss/main.scss` anpassen
+
 ## Deployment (GitHub Pages)
 
 Das Deployment-Layout (Branch `gh-pages` vs. Actions-Workflow) ist bewusst offen gelassen –
